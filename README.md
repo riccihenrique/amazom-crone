@@ -15,7 +15,7 @@ Utilize o modelo de banco de dados abaixo e a biblioteca [nodemailer](https://no
 
 ![alt](https://i.ibb.co/S7p9nC7/Capturar.png)
 
-DICA: Utilizem o projeto `rontend Online Store`para vizualizar a aplicação por completo. Não é algo obrigatório.
+DICA: Utilizem o projeto `Front-end Online Store`para vizualizar a aplicação por completo. Não é algo obrigatório.
 
 A criação dos testes não é algo obrigatório, porém será um diferencial.
 
