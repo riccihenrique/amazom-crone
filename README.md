@@ -7,7 +7,7 @@ As informações de `categorias`, `produtos` e `usuários` devem ser inseridas n
 
 O endpoint de `comprar produtos` deverá enviar um e-mail assim que a compra for efetivada, informando a pessoa usuária de que a compra está em processamento. Essas informações de compra deverão ser salvas em um `banco de dados não relacional`.
 
-Uma tarefa automática será responsavél por ler as informações do `banco de dados não relacional` de 3 em 3 minutos, salvar corretamente as informações em um `banco de dados relacional` e enviar um e-mail para a pessoa usuária avisando que a compra foi processada e em breve ela receberá os produtos.
+Uma tarefa automática será responsável por ler as informações do `banco de dados não relacional` de 3 em 3 minutos, salvar corretamente as informações em um `banco de dados relacional` e enviar um e-mail para a pessoa usuária avisando que a compra foi processada e em breve ela receberá os produtos.
 
 Não é necessário tratar estoque ou pagamento, mas é importante salvar o `total dos produtos vendidos`.
 
