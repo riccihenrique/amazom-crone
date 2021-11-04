@@ -2,7 +2,7 @@
 
 Este projeto tem como objetivo o desenvolvimento de uma aplicação que simule um e-commerce.
 
-Você deverá desenvolver endpoints para `buscar categorias`, `cadastrar categoria`, `cadastrar produtos`, `buscar produtos por categorias`, `listar todos os produtos`, `cadastrar usuário`, `login` e `comprar produtos` (pode ser 1 ou vários produtos na mesma compra).
+Você deverá desenvolver endpoints para `buscar categorias`, `cadastrar categoria`, `cadastrar produtos`, `listar todos os produtos` (esse endpoint também deverá produtos por categorias, caso seja passado um query parametro com a categoria), `cadastrar usuário`, `login` e `comprar produtos` (pode ser 1 ou vários produtos na mesma compra).
 
 O endpoint de `comprar produtos` deverá enviar um e-mail assim que a compra for efetivada, informando a pessoa usuária de que a compra está em processamento. 
 
