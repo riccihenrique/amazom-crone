@@ -2,12 +2,9 @@
 
 Este projeto tem como objetivo o desenvolvimento de uma aplicação que simule um e-commerce.
 
-Você deverá desenvolver endpoints para `buscar categorias`, `produtos por categorias`, `todos os produtos`, `login` e `comprar produtos` (pode ser 1 ou vários produtos na mesma compra).
-As informações de `categorias`, `produtos` e `usuários` devem ser inseridas no banco de dados por meio de seeder, não sendo necessário a criação de endpoints para inserir essas informações (podem ter quantas informações foram necessárias).
+Você deverá desenvolver endpoints para `buscar categorias`, `cadastrar categoria`, `cadastrar produtos`, `buscar produtos por categorias`, `listar todos os produtos`, `cadastrar usuário`, `login` e `comprar produtos` (pode ser 1 ou vários produtos na mesma compra).
 
-O endpoint de `comprar produtos` deverá enviar um e-mail assim que a compra for efetivada, informando a pessoa usuária de que a compra está em processamento. Essas informações de compra deverão ser salvas em um `banco de dados não relacional`.
-
-Uma tarefa automática será responsável por ler as informações do `banco de dados não relacional` de 3 em 3 minutos, salvar corretamente as informações em um `banco de dados relacional` e enviar um e-mail para a pessoa usuária avisando que a compra foi processada e em breve ela receberá os produtos.
+O endpoint de `comprar produtos` deverá enviar um e-mail assim que a compra for efetivada, informando a pessoa usuária de que a compra está em processamento. 
 
 Não é necessário tratar estoque ou pagamento, mas é importante salvar o `total dos produtos vendidos`.
 
